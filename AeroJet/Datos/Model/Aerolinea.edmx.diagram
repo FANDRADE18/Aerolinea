@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="584a822840e24f19accfabf9c688a64c" Name="Diagram1">
+        <EntityTypeShape EntityType="AerolíneaModel.Aerolinea" Width="1.5" PointX="5.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AerolíneaModel.Aeropuerto" Width="1.5" PointX="5.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AerolíneaModel.Asiento" Width="1.5" PointX="9.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AerolíneaModel.Avion" Width="1.5" PointX="7.5" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AerolíneaModel.Boleto" Width="1.5" PointX="12" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AerolíneaModel.Cambio_Moneda" Width="1.5" PointX="12" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AerolíneaModel.Ciudad" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AerolíneaModel.MetodoDePago" Width="1.5" PointX="12" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AerolíneaModel.Pago" Width="1.5" PointX="14.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AerolíneaModel.Pais" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AerolíneaModel.Perfil" Width="1.5" PointX="7.5" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AerolíneaModel.Piloto" Width="1.5" PointX="7.5" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AerolíneaModel.Precio" Width="1.5" PointX="7.5" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AerolíneaModel.Responsable" Width="1.5" PointX="9.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AerolíneaModel.Ruta" Width="1.5" PointX="7.5" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="AerolíneaModel.Secciones" Width="1.5" PointX="5.25" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AerolíneaModel.Tarjeta" Width="1.5" PointX="12" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AerolíneaModel.Usuario" Width="1.5" PointX="9.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AerolíneaModel.Vuelo" Width="1.5" PointX="9.75" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="AerolíneaModel.RefAerolinea5" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefAeropuerto39" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefAeropuerto51" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefCiudad3" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefAsiento50" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefSecciones21" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefAvion22" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefAvion36" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefResponsable54" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefUsuario37" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefVuelo35" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefCambio_Moneda47" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefPais2" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefMetodoDePago45" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefTarjeta46" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefPerfil13" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefPrecio49" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefSecciones26" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefRuta40" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.RefUsuario14" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.Detalle_Pago" ManuallyRouted="false" />
+        <AssociationConnector Association="AerolíneaModel.Vuelo_Piloto" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,12 @@
+C:\Users\1043259\Music\proyecto\AirFly\AirFly\bin\Debug\AirFly.exe.config
+C:\Users\1043259\Music\proyecto\AirFly\AirFly\bin\Debug\AirFly.exe
+C:\Users\1043259\Music\proyecto\AirFly\AirFly\bin\Debug\AirFly.pdb
+C:\Users\1043259\Music\proyecto\AirFly\AirFly\obj\Debug\AirFly.csprojResolveAssemblyReference.cache
+C:\Users\1043259\Music\proyecto\AirFly\AirFly\obj\Debug\AirFly.login.resources
+C:\Users\1043259\Music\proyecto\AirFly\AirFly\obj\Debug\AirFly.Properties.Resources.resources
+C:\Users\1043259\Music\proyecto\AirFly\AirFly\obj\Debug\AirFly.csproj.GenerateResource.Cache
+C:\Users\1043259\Music\proyecto\AirFly\AirFly\obj\Debug\AirFly.csproj.CoreCompileInputs.cache
+C:\Users\1043259\Music\proyecto\AirFly\AirFly\obj\Debug\AirFly.exe
+C:\Users\1043259\Music\proyecto\AirFly\AirFly\obj\Debug\AirFly.pdb
+C:\Users\1043259\Music\proyecto\AirFly\AirFly\obj\Debug\AirFly.MenuAdministrador.resources
+C:\Users\1043259\Music\proyecto\AirFly\AirFly\obj\Debug\AirFly.MenuUsuario.resources

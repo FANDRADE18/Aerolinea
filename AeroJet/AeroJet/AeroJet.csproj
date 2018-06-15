@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30C8B50E-BA4D-4315-809B-CBEA8C9E46DB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AirFly</RootNamespace>
+    <AssemblyName>AirFly</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Desktop\3 CUATRIMESTRE\Aplicaciones Web\Escuela3A\WindowsFormEscuela\bin\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Desktop\3 CUATRIMESTRE\Aplicaciones Web\Escuela3A\WindowsFormEscuela\bin\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\..\Desktop\T1CSYSTEM\T1CSYSTEM\bin\Debug\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AerolineaYAvion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AerolineaYAvion.Designer.cs">
+      <DependentUpon>AerolineaYAvion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AeropuertoYRuta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AeropuertoYRuta.Designer.cs">
+      <DependentUpon>AeropuertoYRuta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAdministrador.Designer.cs">
+      <DependentUpon>MenuAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuUsuario.Designer.cs">
+      <DependentUpon>MenuUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaisyCiudad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaisyCiudad.Designer.cs">
+      <DependentUpon>PaisyCiudad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Piloto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Piloto.Designer.cs">
+      <DependentUpon>Piloto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuarios.Designer.cs">
+      <DependentUpon>Usuarios.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AerolineaYAvion.resx">
+      <DependentUpon>AerolineaYAvion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AeropuertoYRuta.resx">
+      <DependentUpon>AeropuertoYRuta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdministrador.resx">
+      <DependentUpon>MenuAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuUsuario.resx">
+      <DependentUpon>MenuUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaisyCiudad.resx">
+      <DependentUpon>PaisyCiudad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Piloto.resx">
+      <DependentUpon>Piloto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Usuarios.resx">
+      <DependentUpon>Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="bin\Debug\AirFly.exe.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airflyblue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Eye_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Invisible_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airfly.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_User_Account_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\simplerocketshipanimation.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Open_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Flag_2_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Airport_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Flight_Seat_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Flight_Seat_321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Flight_Seat_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Autopilot_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Paper_Plane_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Airplane_Take_Off_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Paper_Plane_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Pricing_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Exit_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AeroJet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AereoJetBlanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Add_User_Male_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Add_File_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Edit_File_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Delete_File_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Datos.dll" />
+    <Content Include="bin\Datos.pdb" />
+    <Content Include="bin\Debug\AirFly.exe" />
+    <Content Include="bin\Debug\AirFly.pdb" />
+    <Content Include="bin\Debug\Bunifu_UI_v1.5.3.dll" />
+    <Content Include="bin\Debug\MetroFramework.dll" />
+    <Content Include="bin\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\EntityFramework.SqlServer.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Datos\Datos.csproj">
+      <Project>{0bc21f08-9d29-4747-bec4-8899941ef575}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,20 @@
+C:\Users\1043259\Music\proyecto\AeroJet\Datos\bin\Debug\Datos.dll.config
+C:\Users\1043259\Music\proyecto\AeroJet\Datos\bin\Debug\Datos.dll
+C:\Users\1043259\Music\proyecto\AeroJet\Datos\bin\Debug\Datos.pdb
+C:\Users\1043259\Music\proyecto\AeroJet\Datos\bin\Debug\EntityFramework.dll
+C:\Users\1043259\Music\proyecto\AeroJet\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1043259\Music\proyecto\AeroJet\Datos\bin\Debug\EntityFramework.xml
+C:\Users\1043259\Music\proyecto\AeroJet\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1043259\Music\proyecto\AeroJet\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\1043259\Music\proyecto\AeroJet\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\1043259\Music\proyecto\AeroJet\Datos\obj\Debug\Datos.dll
+C:\Users\1043259\Music\proyecto\AeroJet\Datos\obj\Debug\Datos.pdb
+C:\Users\1043259\Music\AEROJET PROYECTO V1\AeroJet\Datos\bin\Debug\Datos.dll.config
+C:\Users\1043259\Music\AEROJET PROYECTO V1\AeroJet\Datos\bin\Debug\Datos.dll
+C:\Users\1043259\Music\AEROJET PROYECTO V1\AeroJet\Datos\bin\Debug\Datos.pdb
+C:\Users\1043259\Music\AEROJET PROYECTO V1\AeroJet\Datos\bin\Debug\EntityFramework.xml
+C:\Users\1043259\Music\AEROJET PROYECTO V1\AeroJet\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1043259\Music\AEROJET PROYECTO V1\AeroJet\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\1043259\Music\AEROJET PROYECTO V1\AeroJet\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\1043259\Music\AEROJET PROYECTO V1\AeroJet\Datos\obj\Debug\Datos.dll
+C:\Users\1043259\Music\AEROJET PROYECTO V1\AeroJet\Datos\obj\Debug\Datos.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeroJet", "AeroJet.csproj", "{30C8B50E-BA4D-4315-809B-CBEA8C9E46DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "..\Datos\Datos.csproj", "{0BC21F08-9D29-4747-BEC4-8899941EF575}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30C8B50E-BA4D-4315-809B-CBEA8C9E46DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C8B50E-BA4D-4315-809B-CBEA8C9E46DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C8B50E-BA4D-4315-809B-CBEA8C9E46DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C8B50E-BA4D-4315-809B-CBEA8C9E46DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC21F08-9D29-4747-BEC4-8899941EF575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC21F08-9D29-4747-BEC4-8899941EF575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC21F08-9D29-4747-BEC4-8899941EF575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC21F08-9D29-4747-BEC4-8899941EF575}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1B3D476-DA36-4304-9246-D0DF6FB2F827}
+	EndGlobalSection
+EndGlobal
